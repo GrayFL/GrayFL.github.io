@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  pre-render: python scripts/update_datetime.py 123
+
+website:
+  title: "Gray's Website"
+  navbar:
+    left:
+      - href: index.md
+        text: Home
+      - pages/info.md
+
+format:
+  html:
+    include-in-header:
+        - custom/header.html
+    theme:
+      light:
+        - flatly
+        - custom/custom.scss
+      dark:
+        - darkly
+        - custom/custom.scss
+    # mainfont: "Sarasa Mono SC, Microsoft Yahei"
+    # monofont: "inconsolata, Sarasa Mono SC, Microsoft Yahei"

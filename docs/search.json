@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "pages/info.html",
+    "href": "pages/info.html",
+    "title": "Github 个人主页",
+    "section": "",
+    "text": "测试使用 Quarto 将 markdown 文档转换为 html 文档进行发布\n\\[\nTaylor: f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\cdots\n\\]\n\n\n\n这是一个测试图片\n\n\n列表：\n\n项目一\n项目二\n\n代码块：\nprint(\"Hello, World!\")\n\n\n测试折叠块\n\n你觉得呢？ - 这算是成功了吗？"
+  }
+]
