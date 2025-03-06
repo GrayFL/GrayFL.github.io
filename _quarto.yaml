@@ -1,26 +1,65 @@
 project:
   type: website
   output-dir: docs
-  pre-render: python scripts/update_datetime.py 123
-
+  pre-render:
+  - python scripts/update_datetime.py
+  - python scripts/build_toc.py
+  - python scripts/update_git_log.py
+  render:
+  - '*.md'
+  - '!*.ipynb'
 website:
-  title: "Gray's Website"
+  title: Gray's Website
   navbar:
     left:
-      - href: index.md
-        text: Home
-      - pages/info.md
-
+    - href: index.md
+      text: Home
+    - pages/000-info.md
+  sidebar:
+    style: floating
+    search: true
+    contents:
+    - pages\000-info.md
+    - section: 音乐
+      contents:
+      - section: 乐理
+        contents:
+        - section: 七和弦
+          contents:
+          - text: 减七和弦
+            href: pages\720-音乐\711-乐理\711.04-七和弦\减七和弦.md
+      - section: 风格
+        contents:
+        - section: 弗拉门戈
+          contents:
+          - text: 弗拉门戈曲风
+            href: pages\720-音乐\712-风格\712.56-弗拉门戈\弗拉门戈曲风.md
+        - section: 好莱坞配乐
+          contents:
+          - text: 好莱坞和弦标记与常用进行
+            href: pages\720-音乐\712-风格\712.57-好莱坞配乐\好莱坞和弦标记与常用进行.md
+      - section: 音源
+        contents:
+        - text: KSP - 伪 Round Robin
+          href: pages\720-音乐\716-音源\KSP - 伪 Round Robin.md
+        - text: KSP - 伪连奏
+          href: pages\720-音乐\716-音源\KSP - 伪连奏.md
+        - text: MusicLab - Realxxx
+          href: pages\720-音乐\716-音源\MusicLab - Realxxx.md
+        - text: 优秀的免费音源
+          href: pages\720-音乐\716-音源\优秀的免费音源.md
+    - section: 关于
+      contents:
+      - pages\关于\about.md
+      - pages\关于\Log.md
 format:
   html:
     include-in-header:
-        - custom/header.html
+    - custom/header.html
     theme:
       light:
-        - flatly
-        - custom/custom.scss
+      - flatly
+      - custom/custom.scss
       dark:
-        - darkly
-        - custom/custom.scss
-    # mainfont: "Sarasa Mono SC, Microsoft Yahei"
-    # monofont: "inconsolata, Sarasa Mono SC, Microsoft Yahei"
+      - darkly
+      - custom/custom.scss

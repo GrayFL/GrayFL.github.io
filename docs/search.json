@@ -1,9 +1,131 @@
 [
   {
-    "objectID": "pages/info.html",
-    "href": "pages/info.html",
+    "objectID": "pages/关于/about.html",
+    "href": "pages/关于/about.html",
+    "title": "关于这个主页",
+    "section": "",
+    "text": "这个页面通过什么生成的？\n这是基于 Quarto 生成的静态网页。\nQuarto 是一个开源的文档格式，它可以将 Markdown 文档转换为多种格式的文档，包括 HTML、PDF、Word、PowerPoint 等。\nQuarto 的优点是它可以将 Markdown 文档转换为多种格式的文档，而且可以使用多种编程语言编写代码块。",
+    "crumbs": [
+      "Home",
+      "关于",
+      "关于这个主页"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/716-音源/优秀的免费音源.html",
+    "href": "pages/720-音乐/716-音源/优秀的免费音源.html",
+    "title": "1 Silver - Inspiring Free Kontakt Library - Audiobro",
+    "section": "",
+    "text": "#音源 #编曲\n\n\n1 Silver - Inspiring Free Kontakt Library - Audiobro\n一个综合音色库",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "音源",
+      "优秀的免费音源"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/716-音源/KSP - 伪连奏.html",
+    "href": "pages/720-音乐/716-音源/KSP - 伪连奏.html",
+    "title": "1 工厂脚本",
+    "section": "",
+    "text": "#Kontakt\n\n\nKontakt Tutorial: How to Add Fake Legato to Your Instruments - YouTube Solo Instrument Performance Suite\n\n\n1 工厂脚本\n\n其中，设置如下模式可以实现基本的Mono+Legato效果\n\n\nPortamento中的Auto是只有覆盖时才触发连奏，而不是始终滑音\nRelative是使用绝对连奏时间，反之音程跨度越大滑音越长 # 2 Solo Instrument Performance Suite",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "音源",
+      "KSP - 伪连奏"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/712-风格/712.57-好莱坞配乐/好莱坞和弦标记与常用进行.html",
+    "href": "pages/720-音乐/712-风格/712.57-好莱坞配乐/好莱坞和弦标记与常用进行.html",
+    "title": "1 进行标记",
+    "section": "",
+    "text": "#好莱坞 #影视配乐 #和弦进行\n\n\n1 进行标记\n如 M2m 指一个大和弦进行到一个小和弦，且根音相距2个半音，比如 CMaj - Dmin\n\n\n2 常用进行\n\nm4m: Magic 存在共同5音 &gt; Em - Cm\nm1M: Thriller Suspense 无共同音 &gt; Gm - AM\nm5M / M7m: Wonder Superhero\nm1m: Danger 弗里吉亚 &gt; Fm - Em - Fm - F#m\nM6M: Outer-space Wonder 三全音 &gt; FM - BM - G#M - DM\nm4M - m7m: Mysterious Tension",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "风格",
+      "好莱坞配乐",
+      "好莱坞和弦标记与常用进行"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/711-乐理/711.04-七和弦/减七和弦.html",
+    "href": "pages/720-音乐/711-乐理/711.04-七和弦/减七和弦.html",
+    "title": "1 连接高低一个半音",
+    "section": "",
+    "text": "#乐理 #七和弦\n\n\n可能是全网最易懂的减七和弦，原理+运用，一网打尽！_哔哩哔哩_bilibili\n\n1 b3 b5 bb7\n\n1 连接高低一个半音\n\neg: I^M7 - vi^m7 - ii^m7 - V7\n\n\nI^M7 - #vi^o7 - vi^m7 - #ii^o7 - ii^m7 - bv^o7 - V7\nI^M7 - bvi^o7 - vi^m7 - bii^o7 - ii^m7 - #v^o7 - V7\n\n减七和弦解决到的和弦既可以是大和弦，也可以是小和弦\n\n\n2 把长时间不变的和声破坏掉\n\neg: I - I - I - I / ii^m7 - iii^m7 - vii^Ø7 - III7\n\nI - i^o7 - I - i^o7 - I - i^o7 - I - i^o7 / ii^m7 - ii^07 - iii^m7 - iii^o7 - vii^Ø7 - III7",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "乐理",
+      "七和弦",
+      "减七和弦"
+    ]
+  },
+  {
+    "objectID": "pages/000-info.html",
+    "href": "pages/000-info.html",
     "title": "Github 个人主页",
     "section": "",
-    "text": "测试使用 Quarto 将 markdown 文档转换为 html 文档进行发布\n\\[\nTaylor: f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\cdots\n\\]\n\n\n\n这是一个测试图片\n\n\n列表：\n\n项目一\n项目二\n\n代码块：\nprint(\"Hello, World!\")\n\n\n测试折叠块\n\n你觉得呢？ - 这算是成功了吗？"
+    "text": "测试使用 Quarto 将 markdown 文档转换为 html 文档进行发布\n\\[\nTaylor: f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\cdots\n\\]\n\n\n\n这是一个测试图片\n\n\n列表：\n\n项目一\n项目二\n\n代码块：\nprint(\"Hello, World!\")\n\n\n测试折叠块\n\n你觉得呢？ - 这算是成功了吗？",
+    "crumbs": [
+      "Home",
+      "Github 个人主页"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/712-风格/712.56-弗拉门戈/弗拉门戈曲风.html",
+    "href": "pages/720-音乐/712-风格/712.56-弗拉门戈/弗拉门戈曲风.html",
+    "title": "1 基本音阶",
+    "section": "",
+    "text": "#弗拉门戈 #弗里吉亚 #调式\n\n\n1 基本音阶\n弗里吉亚属和弗里吉亚交替\n注意，弗里吉亚属也是和声小调的第五序列（拿坡里进行）\n因此如果从和声小调来看，类似混合利底亚，可以从其他级数出发并以III或III7做属来过渡，比如 Section 2 中的第2条进行\n\n\n2 常用进行\n1）vi - V - IV - III（或弗里吉亚的4321）\n2）vi - III - I - II - IV - I - IV - III(7) 此时后半截已经接入和声小调；事实上这个进行也很类似和声小调\n3）vi - ii - III 从这个角度，旋律小调的进行都是可以使用的",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "风格",
+      "弗拉门戈",
+      "弗拉门戈曲风"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/716-音源/KSP - 伪 Round Robin.html",
+    "href": "pages/720-音乐/716-音源/KSP - 伪 Round Robin.html",
+    "title": "伪RR（fake round robin）",
+    "section": "",
+    "text": "#Kontakt\n\n\nszcz’s audio adventures: Fake random round robin script for Kontakt (fairlyconfusing.net)\n\n\n伪RR（fake round robin）\n\nfairlyconfusing.net/docs/fake_round_robin.txt\n\n{===========================}\n{      fake round robin     }\n{      by SzcZ (c) 2014     }\n{  www.fairlyconfusing.net  }\n{===========================}  \n  \non init\n    \n    {...................................................}\n    { edit these value to match instrument's note range }\n    {    enter numbers for lowest and highest notes     }\n    {...................................................}\n      declare const $LOW_note  := 0\n      declare const $HIGH_note := 127\n      \n    {...................................................}\n    { this is starting seed for random number generator }\n    { you can type in any number greater than zero      }\n    {...................................................}\n      declare const $mother_seed := 101303404\n    {...................................................}\n    \n    set_script_title(\"Fake round robin\")\n    set_ui_height_px(100)\n    set_listener ($NI_SIGNAL_TRANSP_START,1)\n    \n    {variables}\n    declare $count\n    declare $shadow_note_id\n    declare $note_number\n    declare $last_random := -1\n    declare const $KEY_RANGE := $HIGH_note - $LOW_note\n    \n    {ui coordinates}\n    declare const $x_pos := 80\n    declare const $y_pos := 20\n    declare const $x_spc := 110\n    declare const $x_lab := 300\n    declare const $y_spc := 22\n    \n    {knobs}\n    declare ui_knob $fake_robin_range (0,$KEY_RANGE,1)\n    set_text($fake_robin_range,\"range\")\n    set_knob_unit($fake_robin_range,$KNOB_UNIT_ST)\n    move_control_px($fake_robin_range, $x_pos, $y_pos + $y_spc)\n    \n    declare ui_knob $stereo_range (0,1000,10)\n    set_text($stereo_range,\"spread\")\n    set_knob_unit($stereo_range,$KNOB_UNIT_PERCENT)\n    move_control_px($stereo_range, $x_pos + $x_spc, $y_pos + $y_spc)\n    \n    {labels}\n    declare ui_label $l_robin (1,1)\n    set_text ($l_robin,\" fake round robin\")\n    move_control_px($l_robin, $x_pos, $y_pos)\n    declare ui_label $l_stereo (1,1)\n    set_text ($l_stereo,\"    fake stereo\")\n    move_control_px($l_stereo, $x_pos + $x_spc, $y_pos)\n    declare ui_label $l_nfo1 (1,1)\n    move_control_px($l_nfo1, $x_pos + $x_spc *2, $y_pos)\n    declare ui_label $l_nfo2 (1,1)\n    move_control_px($l_nfo2, $x_pos + $x_spc *2, $y_pos + $y_spc)\n    declare ui_label $l_nfo3 (1,1)\n    move_control_px($l_nfo3, $x_pos + $x_spc *2, $y_pos + $y_spc *2)\n    hide_part ($l_nfo1,$HIDE_PART_BG)\n    hide_part ($l_nfo2,$HIDE_PART_BG)\n    hide_part ($l_nfo3,$HIDE_PART_BG)\n    set_control_par(get_ui_id($l_nfo1), $CONTROL_PAR_WIDTH, $x_lab)\n    set_control_par(get_ui_id($l_nfo2), $CONTROL_PAR_WIDTH, $x_lab)\n    set_control_par(get_ui_id($l_nfo3), $CONTROL_PAR_WIDTH, $x_lab)\n    set_control_par(get_ui_id($l_nfo1), $CONTROL_PAR_FONT_TYPE, 22)\n    set_control_par(get_ui_id($l_nfo2), $CONTROL_PAR_FONT_TYPE, 2)\n    set_control_par(get_ui_id($l_nfo3), $CONTROL_PAR_FONT_TYPE, 2)\n    set_text ($l_nfo1,\"FAKE RANDOM ROUND ROBIN\")\n    if($LOW_note =0 and $HIGH_note =127)\n        set_text ($l_nfo2,\"First edit LOW_note, HIGH_note values in the beginning of the script.\")\n    else\n        set_text ($l_nfo2,\" \")\n    end if\n    set_text ($l_nfo3,\" \")\n    \n    {random generator const and variables}\n    declare const $PMa := 16807\n    declare const $PMm := 2147483647\n    declare const $PMq := $PMm / $PMa\n    declare const $PMr := $PMm mod $PMa\n    declare $seed := $mother_seed\n    declare $rnd\n    declare $rnd_min\n    declare $rnd_max := 1000000 \n    \n    {save settings}\n    make_persistent ($fake_robin_range)\n    make_persistent ($stereo_range)\n    \nend on  \n  \n{random number generator}\nfunction generate_random\n    $rnd := $PMa * ($seed mod $PMq) - $PMr * ($seed / $PMq)\n    if ($rnd &gt; 0)\n        $seed := $rnd\n    else\n        $seed := $rnd + $PMm\n    end if\n    $rnd := ($rnd_max - $rnd_min) +1\n    $rnd := ($seed mod $rnd) + $rnd_min\nend function  \n  \nfunction draw_note\n    call generate_random\n    if($rnd = $last_random)\n        inc($rnd)\n        if($rnd &gt; $rnd_max)\n            $rnd := $rnd_min\n        end if\n    end if\n    $last_random := $rnd\nend function  \n  \n{fake round robin functionality}\non note\n    set_text ($l_nfo3,\"incoming note number: \" & $EVENT_NOTE)\n    if($fake_robin_range #0 and $EVENT_NOTE &gt;= $LOW_note and $EVENT_NOTE &lt;= $HIGH_note)\n        $note_number := $EVENT_NOTE\n        $rnd_min := $EVENT_NOTE - $fake_robin_range /2\n        $rnd_max := $EVENT_NOTE + $fake_robin_range /2 + $fake_robin_range mod 2\n        if($rnd_max &gt; $HIGH_note)\n            $count := $rnd_max - $HIGH_note\n            $rnd_max := $rnd_max - $count\n            $rnd_min := $rnd_min - $count\n        end if\n        if($rnd_min &lt; $LOW_note)\n            $count := $LOW_note - $rnd_min\n            $rnd_max := $rnd_max + $count\n            $rnd_min := $rnd_min + $count\n        end if\n        call draw_note\n        $count := $EVENT_NOTE - $rnd\n        change_note($EVENT_ID,$rnd)\n        change_tune($EVENT_ID,$count *100000,1)\n        \n        {fake stereo functionality}\n        if($stereo_range #0)\n            change_pan($EVENT_ID,$stereo_range,1)\n            call draw_note\n            $count := $note_number - $rnd\n            $shadow_note_id := play_note($rnd,$EVENT_VELOCITY,0,-1)\n            change_tune($shadow_note_id,$count *100000,1)\n            change_pan($shadow_note_id,-$stereo_range,1)\n        end if\n    end if\nend on  \n  \n{reset seed on transport start}\non listener\n    if($NI_SIGNAL_TYPE = $NI_SIGNAL_TRANSP_START)\n        $seed := $mother_seed\n    end if\nend on",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "音源",
+      "KSP - 伪 Round Robin"
+    ]
+  },
+  {
+    "objectID": "pages/720-音乐/716-音源/MusicLab - Realxxx.html",
+    "href": "pages/720-音乐/716-音源/MusicLab - Realxxx.html",
+    "title": "1 技法KS设置备份",
+    "section": "",
+    "text": "#音源\n\n\n1 技法KS设置备份\n位置：C:/Users/Gray/AppData/Roaming/MusicLab/RealLPC/6/Presets.kgp\n是二进制文件\n截图如下：",
+    "crumbs": [
+      "Home",
+      "音乐",
+      "音源",
+      "MusicLab - Realxxx"
+    ]
+  },
+  {
+    "objectID": "pages/关于/Log.html",
+    "href": "pages/关于/Log.html",
+    "title": "更新日志",
+    "section": "",
+    "text": "[2025-03-04] Gray gray_f@qq.com fe5a1899f652c09342bed5f4aa39b21aaa91abf2\n\n禁用jekyll\n\n[2025-03-04] Gray gray_f@qq.com f37bed32e3a2a57dc117177458c66bb3bce5f9e9\n\n\n使用 quarto website project 的形式重新组织项目\n添加 py 脚本实现自动更新文档日期\n\n\n[2025-03-04] Gray gray_f@qq.com ff30eb8f37395b96a8054ed266abbdfbbda70653\n\nReset repository",
+    "crumbs": [
+      "Home",
+      "关于",
+      "更新日志"
+    ]
   }
 ]

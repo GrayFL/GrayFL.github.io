@@ -1,3 +1,3 @@
 # 跳转链接
 
-## [Info pages](pages/info.md)
+## [Info pages](pages/000-info.md)

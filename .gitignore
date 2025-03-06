@@ -1,2 +1,8 @@
 /.quarto/
-assets/fonts/
+/assets/fonts/
+/pages/
+
+
+*.ipynb
+config.yaml
+
